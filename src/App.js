@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./Components/Menu/Header";
+import Collections from "./Components/Sections/Collections";
+import CreateSell from "./Components/Sections/CreateSell";
+import Footer from "./Components/Sections/Footer";
+import Hero from "./Components/Sections/Hero";
+import JoinUs from "./Components/Sections/JoinUs";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App ">
+      <div className="fill-left">
+        <Header />
+      </div>
+
+      <div className="mx-0 ml-5 sm:mx-11 md:mx-[120px] border-l border-l-[#D9D9D9]">
+        <Hero />
+      </div>
+      <div className="fill-left">
+        <Collections />
+      </div>
+
+      <div className="fill-left">
+        <CreateSell />
+      </div>
+
+      <div className="fill-left">
+        <JoinUs />
+      </div>
+
+      <div className="fill-left">
+        <Footer />
+      </div>
     </div>
   );
 }
