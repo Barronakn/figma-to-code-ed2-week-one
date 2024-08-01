@@ -4,7 +4,7 @@ import Logo from "../Logo";
 const Footer = () => {
   return (
     <footer className="pt-24 z-0">
-      <div className="fill sm:pl-12 md:pl-32">
+      <div className="fill">
         <Logo />
       </div>
       <div className="flex flex-col gap-4 xl:gap-0 xl:flex-row justify-between py-8">

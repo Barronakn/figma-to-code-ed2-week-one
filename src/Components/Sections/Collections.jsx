@@ -8,7 +8,7 @@ import  collectionicon from "../../assets/collection/collectionicon.png";
 
 const Collections = () => {
   return (
-    <section className="flex flex-col gap-9 pb-24">
+    <section className="flex flex-col gap-9 py-24">
       <h2 className="text-2xl sm:text-3xl font-bold">Our Collections</h2>
       <div className="flex flex-col sm:flex-row justify-between items-stretch  sm:items-center text-sm font-semibold gap-2">
         <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-5 gap-2 ">
