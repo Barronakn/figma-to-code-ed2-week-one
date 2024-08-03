@@ -3,7 +3,7 @@ import Logo from "../Logo";
 
 const DesktopNavbar = () => {
   return (
-    <div className="lg:flex flex-row justify-between px-32 items-center hidden">
+    <div className="lg:flex flex-row justify-between 2xl:justify-evenly px-32 items-center hidden">
       <Logo />
       <nav>
         <ul className="flex flex-col lg:flex-row justify-between gap-7 text-neutral-700">

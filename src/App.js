@@ -8,7 +8,7 @@ import JoinUs from "./Components/Sections/JoinUs";
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App container">
       <div className="fill-left">
         <Header />
       </div>
