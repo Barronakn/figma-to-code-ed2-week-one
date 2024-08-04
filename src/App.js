@@ -13,10 +13,11 @@ function App() {
         <Header />
       </div>
 
-      <div className="mx-0 ml-5 sm:mx-11 md:mx-[120px] border-l border-l-[#D9D9D9]"></div>
+      <div className="mx-0 ml-5 sm:mx-11 md:mx-[120px] border-l border-l-[#D9D9D9]">
+        <Hero />
+      </div>
 
       <div className="fill-left">
-        <Hero />
         <Collections />
         <CreateSell />
         <JoinUs />
