@@ -1,0 +1,5 @@
+export {default as Hero} from "../Sections/Hero"
+export {default as JoinUs} from "../Sections/JoinUs"
+export {default as Footer} from "../Sections/Footer"
+export {default as CreateSell} from "../Sections/CreateSell"
+export {default as Collections} from "../Sections/Collections"

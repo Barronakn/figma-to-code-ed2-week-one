@@ -1,10 +1,6 @@
 import "./App.css";
-import Header from "./Components/Menu/Header";
-import Collections from "./Components/Sections/Collections";
-import CreateSell from "./Components/Sections/CreateSell";
-import Footer from "./Components/Sections/Footer";
-import Hero from "./Components/Sections/Hero";
-import JoinUs from "./Components/Sections/JoinUs";
+import { Header } from "./Components/Menu";
+import { Collections, CreateSell, Footer, Hero, JoinUs } from "./Components/Sections";
 
 function App() {
   return (
